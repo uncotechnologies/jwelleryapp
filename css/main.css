@@ -1,0 +1,137 @@
+/*  ---- By Piyush ---- */
+/*---------------------------------- Common Css  ----------------------------------*/
+*::before, *::after, .btn, .animate, a, .fa, .top-strip, .head-top, .head-bottom, .main-menu a{
+  transition:all 0.3s ease-in 0s;
+  -moz-transition:all 0.3s ease-in 0s;
+  -ms-transition:all 0.3s ease-in 0s;
+  -o-transition:all 0.3s ease-in 0s;
+  -webkit-transition:all 0.3s ease-in 0s;		
+}
+body {
+  font-size:14px;
+  margin:0;
+  font-family: "Dosis", Helvetica, Arial, sans-serif;
+}
+a, a:focus, a:hover{	 
+  text-decoration:none !important;
+  outline:none !important;
+}
+h1, h2, h3, h4, h5, h6, p, ul, li{
+  margin:0;
+  padding:0;
+}	
+ul, li{
+  list-style-type:none;
+}
+.relative{
+  position:relative;
+}
+/* header */
+.cust-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.top-strip {
+  /* text-align: center; */
+  margin: 0 0 0;
+  padding: 0 0 0px;
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 100px;
+  position: absolute;
+  top: 0;
+}
+.top-strip-left {
+  float: left;
+}
+.top-strip-right {
+  float: right;
+}
+.top-strip-right li, .top-strip-left li {
+  display: inline-block;
+}
+.top-strip-left li a, .top-strip-right li a {
+  font-size: 12px;
+  color: #fff;
+  padding: 0 15px;
+  display: block;
+  text-transform: uppercase;
+}
+.main-hed {
+  padding: 0 100px;
+  z-index: 999;
+  height: 60px;
+  line-height: 54px;
+  margin: 40px 0 0;
+}
+
+.logo a {
+  display: block;
+}
+.logo img {
+  width: 120px;
+  height: 60px;
+}
+.header-menu {
+  margin: 0 0 0 60px;
+}
+.header-menu li {
+  display: inline-block;
+}
+.header-menu li a {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 0 8px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+/* banner */
+.parralex-banner {
+  background-attachment: fixed !important;
+  background-position: center center !important;
+  background-size: cover !important; 
+  position: relative;
+}    	
+.parralex-banner a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.banner-title {
+  position: relative;
+  top: 50%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 96px;
+  text-transform: capitalize;
+  text-shadow: -1px 2px 1px #232121;
+  color: #ffffff;
+  border-top: 1px dotted #ffffff;
+  border-bottom: 1px dotted #ffffff;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.parralex-banner a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
