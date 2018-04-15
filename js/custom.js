@@ -9,7 +9,9 @@ jQuery(document).ready(function(){
 			jQuery(".fullHt").css("min-height", "100%");
 			} 
 	} 
-	
+	jQuery(".collection-hed").click(function(){
+		jQuery(".collection-content").slideToggle();
+	})
 	$('[data-toggle="popover"]').popover({
         placement : 'top',
         trigger : 'hover'
